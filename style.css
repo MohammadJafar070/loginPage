@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+*{
+    font-family: "Play", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: url(./assets/jei-lee-0lL6Sox7n1Y-unsplash.jpg); */
+    background-image: url(https://t4.ftcdn.net/jpg/07/22/71/83/360_F_722718343_qFEbpdqofv8TT8gCz8tkNL0uHYXeTqIR.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+}
+.login-main-container{
+    text-align: center;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 12px 30px;
+    backdrop-filter: blur(4px);
+}
+form{
+    display: flex;
+    flex-direction: column;
+   
+}
+h1{
+    color: #2F0778;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.input-container input{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: transparent;
+    color: #3E026E;
+    width: 100%;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+}
+.input-container input::placeholder{
+    color:rgb(213, 183, 233,);
+
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0px 35px 0px;
+}
+.remember label{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.remember  label p{
+    margin-left: 4px;
+    color: #fff;
+}
+.login-btn{
+    padding: 12px 20px;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.login-btn:hover{
+    background-color: #653E9B;
+    color: #E6A687;
+}
+.login-main-container a:hover{
+    text-decoration: underline;
+}
+.register p{
+    color: #fff;
+}
+.remember a{
+    text-decoration: none;
+    color: #fff;
+}
+.register a{
+    text-decoration: none;
+    color: #fff;
+}
+.remember a:hover{
+    color: #AC3835;
+}
+.register a:hover{
+    color: #AC3835;
+}
+
